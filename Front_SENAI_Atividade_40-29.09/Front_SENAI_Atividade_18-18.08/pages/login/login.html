@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | ShoPhone</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="../auth.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container topo-linha">
+            <a class="marca" href="../../index.html">
+                <img src="../../assets/logomarca.png" alt="Logo ShoPhone">
+                <span class="marca-nome">ShoPhone</span>
+            </a>
+            <nav><a href="../../index.html">← Voltar à loja</a></nav>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+            <section class="auth">
+                <div class="auth-banner">
+                    <img src="../../assets/banner.jpg" alt="Login necessário">
+                    <div class="auth-legenda"><strong>Bem-vindo de volta</strong><span>Acesse sua conta e continue comprando os smartphones de última geração.</span></div>
+                </div>
+
+                <form id="formLogin" class="auth-form">
+                    <h1>Login na ShoPhone</h1>
+                    <p>Faça login para acessar sua conta.</p>
+
+                    <div class="campos">
+                        <label class="campo">Email
+                            <input id="inputEmail" type="email" required placeholder="Digite seu email">
+                        </label>
+                        <label class="campo">Senha
+                            <input id="inputSenha" type="password" required placeholder="Digite sua senha">
+                        </label>
+                    </div>
+
+                    <div class="auth-acoes">
+                        <button class="botao" type="submit">Acessar</button>
+                        <button class="botao botao-sec" type="reset">Limpar</button>
+                    </div>
+
+                    <div class="auth-links">
+                        <a href="../esqueciSenha/esqueciSenha.html">Esqueci minha senha</a>
+                        <a href="../cadastro/cadastro.html">Não tenho cadastro</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <section>
+                <h3>Links de apoio</h3>
+                <p><a href="../../index.html">Página inicial</a></p>
+                <p><a href="../cadastro/cadastro.html">Cadastre-se</a></p>
+            </section>
+            <section>
+                <h3>ShoPhone</h3>
+                <p>Smartphones de última geração.</p>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>

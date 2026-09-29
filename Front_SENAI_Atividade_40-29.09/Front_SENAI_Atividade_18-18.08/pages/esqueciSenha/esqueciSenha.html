@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de senha | ShoPhone</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="../auth.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container topo-linha">
+            <a class="marca" href="../../index.html">
+                <img src="../../assets/logomarca.png" alt="Logo ShoPhone">
+                <span class="marca-nome">ShoPhone</span>
+            </a>
+            <nav><a href="../login/login.html">Voltar ao login</a></nav>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+            <section class="auth">
+                <div class="auth-banner">
+                    <img src="../../assets/bannerEsqueciSenha.jpg" alt="Recuperação de senha">
+                    <div class="auth-legenda"><strong>Vamos recuperar seu acesso</strong><span>Informe seu email e volte a comprar em poucos instantes.</span></div>
+                </div>
+
+                <form id="formEsqueciSenha" class="auth-form">
+                    <h1>Recupere sua senha</h1>
+                    <p>Informe o email do seu cadastro para recuperar o acesso.</p>
+
+                    <div class="campos">
+                        <label class="campo">Email cadastrado
+                            <input type="email" required placeholder="Digite seu email cadastrado">
+                        </label>
+                    </div>
+
+                    <div class="auth-acoes">
+                        <button class="botao" type="submit">Recuperar</button>
+                    </div>
+
+                    <div class="auth-links">
+                        <a href="../login/login.html">Faça login</a>
+                        <a href="../cadastro/cadastro.html">Não tenho cadastro</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <section>
+                <h3>Recuperou a senha?</h3>
+                <p><a href="../login/login.html">Faça login</a></p>
+            </section>
+            <section>
+                <h3>Links de apoio</h3>
+                <p><a href="../../index.html">Página inicial</a></p>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./esqueciSenha.js"></script>
+</body>
+
+</html>

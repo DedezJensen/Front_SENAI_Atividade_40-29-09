@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoPhone</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container topo-linha">
+            <a class="marca" href="./index.html">
+                <img src="./assets/logomarca.png" alt="Logo ShoPhone">
+                <h1 class="marca-nome">ShoPhone</h1>
+            </a>
+            <nav>
+                <a href="./pages/login/login.html">Entre</a> ou
+                <a href="./pages/cadastro/cadastro.html">Cadastre-se</a>
+            </nav>
+        </div>
+        <p class="subtitulo">O site ideal para comprar seu celular de última geração</p>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+
+            <nav class="categorias" aria-label="Categorias">
+                <a href="#listaProdutos">
+                    <img src="./assets/celular.png" alt="">
+                    Celulares
+                </a>
+                <a href="#listaProdutos">
+                    <img src="./assets/acessorios2.png" alt="">
+                    Acessórios
+                </a>
+                <a href="#listaProdutos">
+                    <img src="./assets/notebook3.png" alt="">
+                    Informática
+                </a>
+            </nav>
+
+            <h2>Nossos produtos</h2>
+            <section id="listaProdutos" class="grade"></section>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <section>
+                <h3>Links de apoio</h3>
+                <p>Já realizou seu cadastro? <a href="./pages/login/login.html">Faça login</a></p>
+                <p>Não possui cadastro? <a href="./pages/cadastro/cadastro.html">Faça cadastro</a></p>
+            </section>
+            <section>
+                <h3>Fornecedores</h3>
+                <ul>
+                    <li><a target="_blank" href="https://www.apple.com/br/iphone/">iPhone</a></li>
+                    <li><a target="_blank" href="https://www.samsung.com/br/smartphones/">Samsung</a></li>
+                    <li><a target="_blank" href="https://www.mi.com/br/">Xiaomi</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./produtos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

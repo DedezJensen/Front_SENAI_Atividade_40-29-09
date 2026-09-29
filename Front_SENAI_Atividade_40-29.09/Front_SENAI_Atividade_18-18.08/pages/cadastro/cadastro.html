@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | ShoPhone</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="../auth.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container topo-linha">
+            <a class="marca" href="../../index.html">
+                <img src="../../assets/logomarca.png" alt="Logo ShoPhone">
+                <span class="marca-nome">ShoPhone</span>
+            </a>
+            <nav><a href="../login/login.html">Faça seu login</a></nav>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+            <section class="auth cadastro">
+                <div class="auth-banner">
+                    <img src="../../assets/bannerCadastro.jpg" alt="Cadastro ShoPhone">
+                    <div class="auth-legenda"><strong>Crie sua conta ShoPhone</strong><span>Cadastre-se para comprar com rapidez e acompanhar seus pedidos.</span></div>
+                </div>
+
+                <form id="formCadastro" class="auth-form">
+                    <h1>Cadastro na ShoPhone</h1>
+
+                    <div class="campos">
+                        <label class="campo largo">Nome completo
+                            <input id="inputNome" type="text" required placeholder="Digite seu nome">
+                        </label>
+                        <label class="campo">Email
+                            <input id="inputEmail" type="email" required placeholder="Digite seu email">
+                        </label>
+                        <label class="campo">Data de nascimento
+                            <input id="inputDataNascimento" type="date" required>
+                        </label>
+                        <label class="campo">Senha
+                            <input id="inputSenha" type="password" required placeholder="Crie sua senha">
+                        </label>
+                        <label class="campo">Confirme a senha
+                            <input id="inputConfirmar" type="password" required placeholder="Repita a senha">
+                        </label>
+                        <label class="campo">RG
+                            <input id="inputRG" type="text" inputmode="numeric" required placeholder="Digite seu RG">
+                        </label>
+                        <label class="campo">CPF
+                            <input id="inputCPF" type="text" inputmode="numeric" required placeholder="Digite seu CPF">
+                        </label>
+                        <label class="campo largo">Endereço
+                            <input id="inputEndereco" type="text" required placeholder="Digite seu endereço">
+                        </label>
+                        <label class="campo">CEP
+                            <input id="inputCEP" type="text" inputmode="numeric" required placeholder="Digite seu CEP">
+                        </label>
+                        <label class="campo">Cidade
+                            <input id="inputCidade" type="text" required placeholder="Qual sua cidade?">
+                        </label>
+                        <label class="campo">Estado
+                            <input id="inputEstado" type="text" required placeholder="Qual seu estado?">
+                        </label>
+                        <label class="campo">País
+                            <input id="inputPais" type="text" required placeholder="Qual seu país?">
+                        </label>
+                    </div>
+
+                    <div class="auth-acoes">
+                        <button class="botao" type="submit">Finalizar cadastro</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <section>
+                <h3>Já possui cadastro?</h3>
+                <p><a href="../login/login.html">Faça login</a></p>
+            </section>
+            <section>
+                <h3>Links de apoio</h3>
+                <p><a href="../../index.html">Página inicial</a></p>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./cadastro.js"></script>
+</body>
+
+</html>

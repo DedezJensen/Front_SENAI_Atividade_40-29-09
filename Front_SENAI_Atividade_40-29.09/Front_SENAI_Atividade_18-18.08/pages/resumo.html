@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo da compra | ShoPhone</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./paginas.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container topo-linha">
+            <a class="marca" href="../index.html">
+                <img src="../assets/logomarca.png" alt="Logo ShoPhone">
+                <span class="marca-nome">ShoPhone</span>
+            </a>
+            <nav>
+                <a href="./login/login.html">Entre</a> ou
+                <a href="./cadastro/cadastro.html">Cadastre-se</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+
+            <section id="resumo" class="resumo">
+                <img id="imgProduto" src="" alt="">
+                <div class="detalhes">
+                    <h1 id="nomeProduto"></h1>
+                    <p>Preço unitário: <strong id="precoUnitario"></strong></p>
+                    <div>
+                        <label for="quantidade">Quantidade</label><br>
+                        <input type="number" id="quantidade" min="1" max="10" value="1">
+                    </div>
+                    <p>Total: <strong id="valorTotal" class="total"></strong></p>
+                    <div class="acoes">
+                        <a class="botao" href="./finalizacao.html">Finalizar Compra</a>
+                        <a class="botao-sec" href="../index.html">← Continuar comprando</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="erro" hidden>
+                <h1>Produto não encontrado</h1>
+                <p>Volte à página inicial e escolha um produto.</p>
+                <a class="botao" href="../index.html">Ver produtos</a>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <section>
+                <h3>Links de apoio</h3>
+                <p><a href="../index.html">Página inicial</a></p>
+            </section>
+            <section>
+                <h3>ShoPhone</h3>
+                <p>Smartphones de última geração.</p>
+            </section>
+        </div>
+    </footer>
+
+    <script src="../produtos.js"></script>
+    <script src="./resumo.js"></script>
+</body>
+
+</html>
